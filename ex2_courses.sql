@@ -1,0 +1,8 @@
+CREATE TABLE courses (
+id INTEGER PRIMARY KEY AUTOINCREMENT ,
+title TEXT NOT NULL ,
+description TEXT NOT NULL ,
+duration_hours INTEGER ,
+level TEXT DEFAULT 'Beginner' ,
+created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
