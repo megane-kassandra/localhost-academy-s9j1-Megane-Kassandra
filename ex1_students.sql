@@ -4,5 +4,5 @@ first_name TEXT NOT NULL ,
 last_name TEXT NOT NULL ,
 email TEXT NOT NULL ,
 age INTEGER ,
-created_at TEXT DEFAULT CU RRENT_TI MESTAMP
+created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
